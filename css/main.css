@@ -57,7 +57,7 @@ a:hover {
 a:focus-visible {
     color: black;
     text-decoration: underline;
-    border: 1px solid hotpink;
+    border: 1px solid #f00
     outline: none;
     box-shadow: 0 0 4px black;
 }
