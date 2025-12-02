@@ -47,3 +47,17 @@ a {
     text-decoration: none;
     border: 1px solid transparent;
 }
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+    border: 1px solid hotpink;
+}
+
+a:focus-visible {
+    color: black;
+    text-decoration: underline;
+    border: 1px solid hotpink;
+    outline: none;
+    box-shadow: 0 0 4px black;
+}
