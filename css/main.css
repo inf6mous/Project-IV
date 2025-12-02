@@ -29,17 +29,18 @@ h1 {
     margin-top: 0px;
 }
 
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 .Homepage-container{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.main-nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
+
 
 a {
     color: grey;
