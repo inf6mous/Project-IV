@@ -5,6 +5,14 @@ body {
     font-family: "Merriweather", serif;
     font-size: 16px;
 }
+
+h1 {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 70px;
+    margin-top: 0;
+}
+
 .Homepage-container{
     display: flex;
     flex-direction: column;
