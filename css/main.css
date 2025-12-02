@@ -49,13 +49,13 @@ a {
 }
 
 a:hover {
-    color: blueviolet;
+    color: white
     text-decoration: underline;
     border: 1px solid #f00;
 }
 
 a:focus-visible {
-    color: blueviolet;
+    color: white
     text-decoration: underline;
     border: 1px solid #f00
     outline: none;
