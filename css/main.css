@@ -32,3 +32,9 @@ h1 {
     justify-content: center;
     gap: 20px;
 }
+
+a {
+    color: grey;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
