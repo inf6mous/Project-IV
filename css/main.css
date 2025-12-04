@@ -8,6 +8,16 @@ body {
     background-color: darkolivegreen;
 }
 
+.wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 75px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
 header {
     position: sticky;
     top: 0;
