@@ -12,7 +12,7 @@ body {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
+ background-color: rgba(255, 255, 255, .5); /* Red with 50% opacity */
   padding: 75px;
   border-radius: 6px;
   border: 1px solid black;
