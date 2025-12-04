@@ -19,7 +19,7 @@ body {
 }
 
 .my-element {
-  background-color: rgba(255, 0, 0, 0.5); /* Red with 50% opacity */
+  background-color: rgba(255, 255, 255, .5); /* Red with 50% opacity */
 }
 
 header {
