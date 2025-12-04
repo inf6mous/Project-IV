@@ -17,7 +17,3 @@ document.getElementById("prev").addEventListener("click", () => {
   showSlide(index - 1);
 });
 
-// Auto slide every 3 seconds
-setInterval(() => {
-  showSlide(index + 1);
-}, 3000);
