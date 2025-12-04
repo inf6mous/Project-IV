@@ -61,3 +61,11 @@ a:focus-visible {
     outline: none;
     box-shadow: 0 0 4px black;
 }
+
+.footer {
+  border-top-width: 2px;
+  border-top-style: solid;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
