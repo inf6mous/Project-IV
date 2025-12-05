@@ -115,6 +115,7 @@ h1 {
   background-color: white;
   border: 2px solid black;
   font-family: "Ultra", serif;
+  display: block;
 }
 
 img {
