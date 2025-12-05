@@ -204,7 +204,7 @@ a:focus-visible {
     margin-bottom: 20px; 
 }
 
-.egroup-images a {
+.group-images a {
     width: 300px;
     display: flex;
     flex-direction: column;
