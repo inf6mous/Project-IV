@@ -30,11 +30,6 @@ function showSlide(i, {resetTimer = true} = {}) {
   }
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 // next / prev handlers
 function nextSlide() { showSlide(index + 1); }
 function prevSlide() { showSlide(index - 1); }
