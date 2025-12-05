@@ -188,7 +188,23 @@ a:focus-visible {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .event-images a {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.group-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.egroup-images a {
     width: 300px;
     display: flex;
     flex-direction: column;
