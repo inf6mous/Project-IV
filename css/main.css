@@ -83,6 +83,11 @@ h1 {
   font-family: "Ultra", serif;
 }
 
+img {
+    border: 3px solid black;
+    max-width: 100%;
+    height: auto;
+}
 .main-nav {
     display: flex;
     justify-content: center;
