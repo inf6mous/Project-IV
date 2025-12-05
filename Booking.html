@@ -24,7 +24,84 @@
 
 <body>
   <!-- Place your site's HTML here -->
-  
+  <main>
+      <h2> Welcome to the 6.Roll experience</h2>
+      <h3>Log in</h3>
+      <form action="" method="get" class="form-example wrapper">
+        <div class="form-example">
+          <label for="username">Enter your username: </label>
+          <input type="text" name="username" id="username" required="">
+        </div>
+        <div class="form-example">
+          <label for="password">Enter your password: </label>
+          <input type="password" name="password" id="password" required="">
+        </div>
+        <div class="form-example">
+          <input class="submit-button" type="submit" value="Log in">
+        </div>
+      </form>
+
+      <h3>Sign up for booking openings</h3>
+      <form action="" method="get" class="form-example wrapper">
+        <div class="form-example">
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required="">
+        </div>
+        <div class="form-example">
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required="">
+        </div>
+        <div class="form-example">
+          <input class="submit-button" type="submit" value="Subscribe">
+        </div>
+      </form>
+
+      <h3>Reserve your booking now!</h3>
+      <form action="" method="get" class="form-example wrapper">
+        <div class="form-example">
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required="">
+        </div>
+        <div class="form-example">
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required="">
+        </div>
+        <div class="form-example">
+          <label for="headshot">Headshot: </label>
+          <input type="file" name="headshot" id="headshot" required="">
+        </div>
+        <div class="form-example">
+          <label for="color-select">How many participants are there: </label>
+          <select name="color-select" id="color-select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div class="form-example">
+          <label for="date">Date: </label>
+          <input class="date-input" type="date" name="date" id="date" required="">
+        </div>
+        <div class="form-example">
+          <label for="time">Time: </label>
+          <input class="time-input" type="time" name="time" id="time" required="">
+        </div>
+        <div class="form-example">
+          <label for="comments">Questions, Comments, or Concerns: </label>
+          <textarea name="comments" id="comments" required=""></textarea>
+        </div>
+        <div class="form-example">
+          <input class="checkbox-input" type="checkbox" id="terms" name="terms" required="">
+          <label for="terms">I agree to the terms and conditions.</label>
+        </div>
+        <div class="form-example">
+          <input class="submit-button" type="submit" value="Resevere booking">
+        </div>
+      </form>
+
+    </main>
 </body>
 
 </html>
