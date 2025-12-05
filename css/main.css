@@ -179,3 +179,17 @@ a:focus-visible {
     display: flex;
     flex-direction: column;
 }
+
+.event-images   {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.event-images a {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
