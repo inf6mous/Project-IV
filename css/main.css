@@ -53,6 +53,10 @@ body {
   object-fit: cover;
 }
 
+.p {
+    color: #FFFFFF;
+}
+
 /* Buttons */
 .btn {
   position: absolute;
