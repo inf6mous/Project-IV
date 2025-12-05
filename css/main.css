@@ -19,8 +19,7 @@ body {
 }
 
 .slider {
-  width: 600px;
-  height: 350px;
+  height: 500px;
   overflow: hidden;
   border-radius: 10px;
   position: relative;
