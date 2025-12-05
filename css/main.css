@@ -81,6 +81,13 @@ header {
     z-index: 100;
 }
 
+main {
+    flex: 1;
+    /* i need this so that main takes up the remaining space */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .ultra-regular {
   font-family: "Ultra", serif;
   font-weight: 400;
