@@ -18,6 +18,12 @@ body {
   border: 1px solid black;
 }
 
+.my-vertical-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .slider {
   height: 500px;
   overflow: hidden;
